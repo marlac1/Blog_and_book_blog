@@ -1,0 +1,26 @@
+[
+  {
+    "title":"le titre",
+    "slug":"le-titre",
+    "published":true,
+    "description":"la description",
+    "content": "content",
+    "date":"2021-01-01"
+  },
+  {
+    "title":"the title",
+    "slug":"the-title",
+    "published":true,
+    "description":"the description",
+    "content": "content",
+    "date":"2021-01-15"
+  },
+  {
+    "title":"el titulo",
+    "slug":"el-titulo",
+    "published":false,
+    "description":"la descripcion",
+    "content": "content",
+    "date":"2021-04-06"
+  }
+]

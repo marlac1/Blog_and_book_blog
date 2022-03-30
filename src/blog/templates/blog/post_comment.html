@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ blog_post.title }}</title>
+</head>
+<body>
+    {% for post in posts %}
+<h1>TITRE : {{ forloop.counter }}. {{ post.title }}</h1>
+<h2>NOMBRE DE MOTS : {{ post.number_of_words }}</h2>
+<p>CONTENU : {{ post.content }} </p>
+    {% empty %}
+    <p>Pas d'articles</p>
+        {% if forloop.last %}
+<hr>
+        {% endif %}
+    {% endfor %}
+
+    {% if posts %}
+<p>Le blog contient {{posts.count}} articles.</p>
+    {% else %}
+<p>Le bloc ne contient aucun article</p>
+    {% endif %}
+</body>
+</html>

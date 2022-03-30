@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+    {% block title %} <title>Titre index</title> {% endblock %}
+
+{% block content %}
+    {% for blog_post in articles %}
+        {% with nb_categories=blog_post.category.count %}
+        <a href="{% url 'blog-post' slug=blog_post.slug %}">
+        <h1>{{ forloop.counter }}. {{ blog_post.title }} ({{ nb_categories }})</h1>
+        </a>
+        <p>Affichage des 100 premiers mots : {{ blog_post.content | truncatewords:50 | striptags | safe}}</p>
+        <small>Cet article est présent dans {{ nb_categories }} categories</small>
+        {% endwith %}
+    {% endfor %}
+{% endblock %}
