@@ -9,7 +9,7 @@ To run this program :
 <ul>
 1. Install project dependencies mentioned in <i>requirements.txt</i></br>
 2. Source the project environment : <i>$ source venv/Scripts/activate</i></br>
-3. Execute <i>$python manage.py runserver</i></br>
+3. Execute <i>$python manage.py runserver</i>
 </ul>
 
 Urls :
