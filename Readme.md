@@ -6,13 +6,12 @@ The user space has not been implemented yet but the signup form is already coded
 </br>
 </br>
 To run this program :
-1. Install project dependencies mentioned in <i>requirements.txt</i>
-</br>
-2. Source the project environment : <i>$ source venv/Scripts/activate</i>
-</br>
-3. Execute <i>$python manage.py runserver</i>
-</br>
-</br>
+<ul>
+1. Install project dependencies mentioned in <i>requirements.txt</i></br>
+2. Source the project environment : <i>$ source venv/Scripts/activate</i></br>
+3. Execute <i>$python manage.py runserver</i></br>
+</ul>
+
 Urls :
 </br>
 - <i>/</i> (main index)
