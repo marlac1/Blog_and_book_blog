@@ -7,7 +7,7 @@ The user space has not been implemented yet but the signup form is already coded
 </br>
 To run this program :
 </br>
-1. Install project dependencies mentioned in requirements.txt
+1. Install project dependencies mentioned in <i>requirements.txt</i>
 </br>
 2. Source the project environment : <i>$ source venv/Scripts/activate</i>
 </br>
@@ -17,13 +17,21 @@ To run this program :
 Urls :
 </br>
 - <i>/</i> (main index)
+</br>
 - <i>about/</i> 
+</br>
 - <i>customadmin/</i> (admin interface)
+</br>
 - <i>blog/</i> (blog index)
+</br>
 - <i>create-article/</i> (article creation form)
+</br>
 - <i>blog/< str:slug >/</i> (article view)
+</br>
 - <i>blog/< str:slug >/edit/</i> (article modification form)
+</br>
 - <i>blog/< str:slug >/delete/</i> (article deletion)
+</br>
 - <i>signup/</i> (to be implemented)
 
 
