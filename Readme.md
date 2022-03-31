@@ -13,7 +13,6 @@ To run this program :
 </ol>
 
 Urls :
-</br>
 - <i>/</i> (main index)
 </br>
 - <i>about/</i> 
