@@ -6,7 +6,6 @@ The user space has not been implemented yet but the signup form is already coded
 </br>
 </br>
 To run this program :
-</br>
 1. Install project dependencies mentioned in <i>requirements.txt</i>
 </br>
 2. Source the project environment : <i>$ source venv/Scripts/activate</i>
