@@ -13,23 +13,17 @@ To run this program :
 </ol>
 
 Urls :
-- <i>/</i> (main index)
-</br>
-- <i>about/</i> 
-</br>
-- <i>customadmin/</i> (admin interface)
-</br>
-- <i>blog/</i> (blog index)
-</br>
-- <i>create-article/</i> (article creation form)
-</br>
-- <i>blog/< str:slug >/</i> (article view)
-</br>
-- <i>blog/< str:slug >/edit/</i> (article modification form)
-</br>
-- <i>blog/< str:slug >/delete/</i> (article deletion)
-</br>
-- <i>signup/</i> (to be implemented)
+<ul>
+<li> <i>/</i> (main index) </li>
+<li> <i>about/</i> </li>
+<li> <i>customadmin/</i> (admin interface)</li>
+<li> <i>blog/</i> (blog index)</li>
+<li> <i>create-article/</i> (article creation form)</li>
+<li> <i>blog/< str:slug >/</i> (article view)</li>
+<li> <i>blog/< str:slug >/edit/</i> (article modification form)</li>
+<li> <i>blog/< str:slug >/delete/</i> (article deletion)</li>
+<li> <i>signup/</i> (to be implemented)</li>
+</ul>
 
 
 
