@@ -5,7 +5,31 @@
     {% block title %}{% endblock %}
 </head>
 <body style="background-color:SteelBlue;">
-<h1>Le site</h1>
+<h1>Blog</h1>
+<!-- SteelBlue -->
 {% block content %}{% endblock %}
+{% block extrastyle %}
+<style>
+    #header {
+        background-color: #1e1e2d
+    }
+    #branding h1 {
+        color: white;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    body {
+        background-color: #3b3b4c;
+    }
+    #content h1 {
+        color: white;
+    }
+    a:link { text-decoration: none; color: #1e1e2d; background-color: #1e1e2d;}
+    a:visited { text-decoration: none; color: #1e1e2d;}
+    a:hover { text-decoration: none; color: #1e1e2d;}
+    a:active { text-decoration: none; color: #1e1e2d;}
+</style>
+{% endblock %}
+
 </body>
 </html>

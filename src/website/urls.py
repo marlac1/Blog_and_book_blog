@@ -16,8 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from src.blog.views import blog_posts, blog_post, article_post, BlogIndexView, BlogPostDetailView, BlogPostCreateView, BlogPostUpdateView, BlogPostDeleteView
-from src.website.views import signup, HomeView
+from blog.views import blog_posts, blog_post, article_post, BlogIndexView, BlogPostDetailView, BlogPostCreateView, BlogPostUpdateView, BlogPostDeleteView
+from website.views import signup, HomeView
 
 urlpatterns = [
     path('', HomeView.as_view(title = "accueil"), name="home"), #le nom (name) de l'url est "home" et renvoie à la view "home"

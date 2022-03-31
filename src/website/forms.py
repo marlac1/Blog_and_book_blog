@@ -20,6 +20,7 @@ class SignupForm(forms.Form):
             raise forms.ValidationError("Champ invalide")
         else:
             return pseudo
+
 class BlogPostForm(forms.ModelForm):
     class Meta:
         model = BlogPost
